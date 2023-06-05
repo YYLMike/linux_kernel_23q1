@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INIT_LIST_HEAD	list.h	/^static inline void INIT_LIST_HEAD(struct list_head *head) {$/;"	f
+LIST_HEAD	list.h	65;"	d
+__LIST_HAVE_TYPEOF	list.h	15;"	d
+__LIST_HAVE_TYPEOF	list.h	418;"	d
+cmpint	main.c	/^static inline int cmpint(const void *p1, const void *p2) {$/;"	f	file:
+container_of	list.h	50;"	d
+container_of	list.h	56;"	d
+i	main.c	/^  uint16_t i;$/;"	m	struct:item	file:
+item	main.c	/^struct item {$/;"	s	file:
+list	main.c	/^  struct list_head list;$/;"	m	struct:item	typeref:struct:item::list_head	file:
+list_add	list.h	/^static inline void list_add(struct list_head *node, struct list_head *head) {$/;"	f
+list_add_tail	list.h	/^static inline void list_add_tail(struct list_head *node,$/;"	f
+list_cut_position	list.h	/^static inline void list_cut_position(struct list_head *head_to,$/;"	f
+list_del	list.h	/^static inline void list_del(struct list_head *node) {$/;"	f
+list_del_init	list.h	/^static inline void list_del_init(struct list_head *node) {$/;"	f
+list_empty	list.h	/^static inline int list_empty(const struct list_head *head) {$/;"	f
+list_entry	list.h	332;"	d
+list_first_entry	list.h	342;"	d
+list_for_each	list.h	365;"	d
+list_for_each_entry	list.h	381;"	d
+list_for_each_entry_safe	list.h	412;"	d
+list_for_each_safe	list.h	396;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_is_singular	list.h	/^static inline int list_is_singular(const struct list_head *head) {$/;"	f
+list_last_entry	list.h	353;"	d
+list_move	list.h	/^static inline void list_move(struct list_head *node, struct list_head *head) {$/;"	f
+list_move_tail	list.h	/^static inline void list_move_tail(struct list_head *node,$/;"	f
+list_sort	main.c	/^static void list_sort(struct list_head *head) {$/;"	f	file:
+list_splice	list.h	/^static inline void list_splice(struct list_head *list, struct list_head *head) {$/;"	f
+list_splice_init	list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_splice_tail	list.h	/^static inline void list_splice_tail(struct list_head *list,$/;"	f
+list_splice_tail_init	list.h	/^static inline void list_splice_tail_init(struct list_head *list,$/;"	f
+next	list.h	/^  struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+prev	list.h	/^  struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
